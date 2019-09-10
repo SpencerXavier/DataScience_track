@@ -12,3 +12,4 @@ x = y[1]
 y = list(x) new list reference
 這樣改變y[1], 就不會改變x的值
 
+看docker +kubernetes
