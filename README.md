@@ -1,5 +1,7 @@
 # ML_track
 
+# datascience track: datacamp +印度人track + 附上project
+
 # datacamp
 1.python list-list manipulation
  x = [1,2,3]. copy list的記憶體位址(reference)
