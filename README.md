@@ -14,4 +14,10 @@ x = y[1]
 y = list(x) new list reference
 這樣改變y[1], 就不會改變x的值
 
+
+2.matplotlib
+line plot -  Line graphs are used to track changes over short and long periods of time
+scatter plot - relation between two parametrers
+histogram plot - histogram is only used to plot the frequency of score occurrences 
+
 看docker +kubernetes
