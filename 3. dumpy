@@ -1,0 +1,3 @@
+## Numpy
+* Python list can't do calcuation, we need to transform to NumPy array.
+array = np.array(list)
