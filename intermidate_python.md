@@ -17,13 +17,15 @@ plt.show()
 plt.hist(values, bins = 10, ...)
 bins = how many columns
 ```
-4. change axis scale,name,title,ticks
+4. change axis scale,name,title,ticks,text
 ```
 plt.xscale('log')
 plt.xlabel('name')
 plt.ylabel('name')
 plt.title('Title Name')
 plt.yticks([0,2,4,6,8,10], display names)
+plt.text(xloc,ylocation,'text')
+
 ```
 5. ps
 ```
