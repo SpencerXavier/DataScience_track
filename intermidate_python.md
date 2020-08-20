@@ -29,5 +29,5 @@ plt.yticks([0,2,4,6,8,10], display names)
 ```
 help(plt.hist) to explore attributes
 plt.clf() = clean up
-
+list.index(2030)可以得到該值的index
 ```
