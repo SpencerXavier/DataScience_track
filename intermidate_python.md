@@ -84,6 +84,19 @@ Pandas : high level data manipulation tool, built on Numpy
 import pandas as pd
 dict = pd.DataFrame(dict)
 will create automatic label
+
+dataframe 的index :dataframe.index = [list or ndarray]
+data['column name'] = column access
+data['slicing number'] = row access
+
+dataframe 的coloumn : dataframe['column_name'] will return value with Pandas Series
+dataframe 的coloumn : dataframe[['column_name']] will return value with  Pandas DataFrame
+multiple dataframe 的coloumn(row,index) : use loc or iloc
+row access : data.loc[[rows name or index]]
+column access : data.loc[:,'[column names]]
+row and column : data.loc[[index], [column names]]
+
+
 ```
 
 3. part3 - CSV
@@ -92,6 +105,22 @@ file = pd.read_csv('file path', index_col = 0)
 will create automatic index column
 use index_col = 0 means first column contain row indexes
 ```
+
+# Logic, Control Flow and Filtering 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
