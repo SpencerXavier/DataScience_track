@@ -107,6 +107,34 @@ use index_col = 0 means first column contain row indexes
 ```
 
 # Logic, Control Flow and Filtering 
+1. comparison operators
+```
+array > conditions = return boolean
+array[array > conditions] = return result
+
+string comparison : according to the alphabet
+
+```
+2. boolean opeartor
+```
+AND, OR, NOT
+to compare array, use np.logical
+np.logical_and/or(array1, array2)
+np.logical_not(array1)
+
+To return True values :
+array[np.logical_and(condition)]
+```
+3. if, elif, else
+```
+if condition :
+    expression
+elif condition :
+    expression
+else :
+    expression
+No indentation to exit statement
+```
 
 
 
