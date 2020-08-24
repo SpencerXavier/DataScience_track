@@ -52,7 +52,7 @@ List: Index by range of number
 Dict: Index by unique keys
 ```
 
-3.part3
+3. part3
 ```
 Add new key and value : dict[new_key] = 'new_value'
 Adding two same keys will display last one(meaning update), but contain both in dict.
