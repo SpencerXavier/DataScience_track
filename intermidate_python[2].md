@@ -145,14 +145,84 @@ No indentation to exit statement
 data[ data [ column ] > x ]
 
 ```
+# Loops
+1. While Loop
+```
+print default new line
+print(x, end = ' ') will be space sepearate
 
+while condition :
+     expression
+```
 
+2. For Loop
+```
+for var in seq:
+    expression
+ps. string can also be iterated.
+```
 
+3. For loop
+```
+for index, x in enumerate(list)
+    print(index,x)
 
+enumerate(list,start=0) default start=0
 
+```
+4. data structure: foor loop with Looping Data Structures, Part 1 (DICT & Array)
+```
+1.Dictionary
 
+method
 
+To loop a dictionary,
+use dict.items()
+for key, value in dict.items():
+    print(key,value)
+Otherwise will causing errors
 
+2.NumPy Arrays
+
+function
+
+To loop an array
+1D is ok
+2D will need nditer
+for vlaue in np.nditer(array):
+    print(value)
+Otherwise will causing two outputs
+
+```
+5. Looping Data Structures, Part 2 (DataFrame)
+```
+DataFrame.iterrows():
+
+for x in DataFrame:
+    print(x)
+this will print column
+
+for x, y in DataFrame.iterrows():
+    print(x)
+    print(y)
+
+x will be label
+y will be row and data for each column
+(index, Series) 
+
+ps. specificy on row you want to print which column 
+print(label+ row['column'])
+ps.add  column
+a.Use Apply()
+
+DataFrame['new column'] = DataFrame['old column'].apply(function)
+
+b.use for loop
+
+for label, row in DataFrame.iterrows():
+     DataFrame.loc[label, 'new column'] = function(row['old column'])
+
+```
 
 
 
