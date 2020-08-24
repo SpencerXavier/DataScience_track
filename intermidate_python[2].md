@@ -135,10 +135,16 @@ else :
     expression
 No indentation to exit statement
 ```
+4. Flitering Pandas DataFrame
+```
+3 Steps
+1.Select the corresponding column
+2.Set conditions on column
+3.Use result(To return True values :) to select rows
 
+data[ data [ column ] > x ]
 
-
-
+```
 
 
 
