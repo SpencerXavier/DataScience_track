@@ -256,8 +256,18 @@ conin = np.random.randint(0,2)
 ps.max(0,step-1) : step never goes below 0
 
 ```
-
-
+3. Distribution of Simulation
+```
+result = [ ]
+for x in range(times): 模擬次數
+    toss = [0]
+    for x in range(10) 丟十次
+         coin = np.random.randint(0,2)
+        tails.append(tails[x]+ coin)
+    result.append(tails[-1]) (把每次結果依序輸入)
+ps. length of an array: len(array)
+   
+```
 
 
 
