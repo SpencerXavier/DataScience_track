@@ -223,6 +223,39 @@ for label, row in DataFrame.iterrows():
      DataFrame.loc[label, 'new column'] = function(row['old column'])
 
 ```
+# Random Numbers
+1. Random Numbers
+```
+np.random.seed(number)
+np.random.rand()
+will generate a random number from 0 ~ 1
+
+
+
+can also manually set the seed
+np.random.seed(number)
+same seed = same random number (to ensure Reproducibility)
+
+np.random.rand(x,y) will create an array with x rows, y column
+np.random.randint(x,y) will create a random number between x and y
+
+```
+2. Random walk
+```
+create an empty list to append list = [     ]
+a.coin toss
+step 1: Print out Process (Random Steps)
+
+for x in range(times):
+conin = np.random.randint(0,2)
+    if condition1:
+        list.append('expression1')
+    if condition2:
+        list.append('expression2)
+        
+ps.max(0,step-1) : step never goes below 0
+
+```
 
 
 
